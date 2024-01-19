@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+ <HEAD>
+  <TITLE>Index of /unix/local/unix/tmp/yaze-1.10</TITLE>
+ <META NAME="generator", CONTENT="mod_autoindex"> </HEAD>
+ <BODY bgcolor="#ffffff" text="#000000">
+
+<TABLE><TR><TD bgcolor="#ffffff" class="title">
+<FONT size="+3" face="Helvetica,Arial,sans-serif">
+<B>Index of /unix/local/unix/tmp/yaze-1.10</B></FONT>
+
+</TD></TR></TABLE><PRE><IMG border="0" src="/icons/blank.gif" ALT="     "> <A HREF="?N=D">Name</A>                    <A HREF="?M=A">Last modified</A>       <A HREF="?S=A">Size</A>  <A HREF="?D=A">Description</A>
+<HR noshade align="left" width="80%">
+<IMG border="0" src="/icons/back.gif" ALT="[DIR]"> <A HREF="/unix/local/unix/tmp/">Parent Directory</A>        08-Dec-2004 21:03      -  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="COPYING">COPYING</A>                 25-Jan-1998 00:00    18k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="ChangeLog">ChangeLog</A>               27-Jan-1998 00:00     1k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="Makefile">Makefile</A>                02-Dec-1999 00:00     2k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="bios.c">bios.c</A>                  25-Jan-1998 00:00    12k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="bios.h">bios.h</A>                  25-Jan-1998 00:00     3k  
+<IMG border="0" src="/icons/unknown.gif" ALT="[   ]"> <A HREF="bios.o">bios.o</A>                  02-Dec-1999 00:00     9k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="cdm">cdm</A>                     02-Dec-1999 00:00    31k  
+<IMG border="0" src="/icons/unknown.gif" ALT="[   ]"> <A HREF="cdm.1">cdm.1</A>                   25-Jan-1998 00:00     2k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="cdm.c">cdm.c</A>                   25-Jan-1998 00:00    37k  
+<IMG border="0" src="/icons/unknown.gif" ALT="[   ]"> <A HREF="cdm.o">cdm.o</A>                   02-Dec-1999 00:00    21k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="io.c">io.c</A>                    02-Feb-1998 00:00    17k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="monitor.c">monitor.c</A>               02-Dec-1999 00:00    27k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="monitor.cpp">monitor.cpp</A>             26-Nov-1999 00:00   237k  
+<IMG border="0" src="/icons/unknown.gif" ALT="[   ]"> <A HREF="monitor.o">monitor.o</A>               02-Dec-1999 00:00    18k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="simz80.c">simz80.c</A>                27-Jan-1998 00:00    62k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="simz80.h">simz80.h</A>                27-Jan-1998 00:00     3k  
+<IMG border="0" src="/icons/unknown.gif" ALT="[   ]"> <A HREF="simz80.o">simz80.o</A>                02-Dec-1999 00:00    32k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="simz80.pl">simz80.pl</A>               27-Jan-1998 00:00    49k  
+<IMG border="0" src="/icons/folder.gif" ALT="[DIR]"> <A HREF="test/">test/</A>                   08-Dec-2004 21:03      -  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="yaze">yaze</A>                    02-Dec-1999 00:00    63k  
+<IMG border="0" src="/icons/unknown.gif" ALT="[   ]"> <A HREF="yaze.1">yaze.1</A>                  25-Jan-1998 00:00     3k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="yaze.boot">yaze.boot</A>               25-Jan-1998 00:00    11k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="yaze.c">yaze.c</A>                  27-Jan-1998 00:00     9k  
+<IMG border="0" src="/icons/unknown.gif" ALT="[   ]"> <A HREF="yaze.doc">yaze.doc</A>                25-Jan-1998 00:00    23k  
+<IMG border="0" src="/icons/text.gif" ALT="[TXT]"> <A HREF="yaze.h">yaze.h</A>                  25-Jan-1998 00:00     2k  
+<IMG border="0" src="/icons/unknown.gif" ALT="[   ]"> <A HREF="yaze.o">yaze.o</A>                  02-Dec-1999 00:00     6k  
+</PRE><HR noshade align="left" width="80%">
+<PRE>
+Yet Another Z80 Emulator
+========================
+
+Yaze is a Z80 and CP/M emulator designed to run on Unix systems.
+
+The package consists of:
+
+* an instruction set simulator which accurately imitates a real Z80
+  microprocessor,
+
+* a CP/M-2.2 bios written in C which runs on the Unix host but
+  interacts with the simulated Z80,
+
+* a monitor which loads CP/M into the simulated processor's ram and
+  which makes Unix directories or files look like CP/M disks, and
+
+* a separate program (cdm) which creates and manipulates CP/M disk
+  images for use with yaze.
+
+Yaze's "selling points", compared with previously available Z80
+emulators, are:
+
+* It emulates all documented and most undocumented processor-internal
+  instructions and all flag bits (all 8, including the undocumented
+  ones).  A test program is included in the package which exhaustively
+  (well, nearly exhaustively) compares all instructions, for all
+  machine states before and after execution, against the results from
+  a real chip.
+
+* It is independent of the host machine architecture and instruction
+  set.  Written in ANSI standard C it is provided with full source
+  code under the GNU General Public License.
+
+* It supports all CP/M disk geometries in the form of images in Unix
+  files or as read-only disks constructed on-the-fly from the contents
+  of Unix directories.  These disks are indistinguishable from real
+  disks for even the most inquisitive, low-level CP/M programs.  They
+  can be mounted and unmounted at will during emulation.
+
+
+
+Frank Cringle, October 1995
+fdc@cliwe.ping.de
+
+
+Various trademarks are the property of various organisations.
+</PRE>
+</BODY></HTML>
